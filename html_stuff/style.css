@@ -1,0 +1,236 @@
+nav {
+	width: 90vw;
+	text-align: end;
+	background-color: bisque;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: large;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+a :hover {
+	color: greenyellow;
+	font-size: x-large;
+}
+
+span {
+	color: aqua;
+}
+h4 {
+	text-align: center;
+	color: gray;
+}
+.center-text {
+	text-align: center;
+	color: gold;
+}
+
+* {
+	font-size: 15px;
+	color: black;
+}
+.add-border {
+	border-width: 2px;
+	width: 80%;
+
+	padding: 20px 5px 10px 20px;
+}
+/*styling images*/
+.img1 {
+	/*images aren't block elements, but just so I don't forget that this "inline-block" is used to put block elements on the same line*/
+	display: inline-block;
+	margin: 0px 10px 2px 5px;
+	width: auto;
+	position: absolute;
+	left: 60%;
+	top: 100px;
+}
+.img2 {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	width: auto;
+	position: absolute;
+	left: 60%;
+	top: 410px;
+}
+
+/*styling tables*/
+
+table {
+	width: 550px;
+	height: 500px;
+	margin: 20px 80px;
+	border-radius: 10px;
+	border-width: 30px;
+	border-color: black;
+	border-collapse: separate;
+}
+td,
+th {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*styling forms*/
+
+form {
+	width: 50vw;
+	height: 800px;
+	background-image: linear-gradient(
+		rgba(128, 0, 128, 0.152),
+		rgba(128, 0, 128, 0.647)
+	);
+	margin: 5px;
+	border-radius: 10px;
+}
+.text-input {
+	border-radius: 3px;
+	border-color: aquamarine;
+	border-width: 0px;
+	width: 150px;
+	height: 20px;
+	padding: 5px;
+	margin: 0 10px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.label-text {
+	font-size: large;
+	margin: 20px 5px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+select {
+	border-radius: 3px;
+	width: 150px;
+	height: 30px;
+	padding: 3px;
+	border-color: aquamarine;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul {
+	list-style-type: armenian;
+}
+
+div p {
+	color: black;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-size: large;
+	margin: 30px 0px 30px 10px;
+	padding: 20px 0px 0px 0px;
+}
+
+.hover-stuff :hover {
+	color: greenyellow;
+	text-decoration: dotted;
+	font-size: x-large;
+}
+
+.submit {
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+	margin: 0 40%;
+	border-color: white;
+	background-color: white;
+	border-width: 0px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer {
+	margin: 200px 0;
+	height: 40vh;
+	width: 100vw;
+}
+.first-ring {
+	width: 13%;
+	height: 205px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: lightskyblue;
+	border-width: 30px;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 20px 20px 5px 20px;
+	position: relative;
+	left: 100px;
+	top: 10px;
+	z-index: 3;
+}
+.second-ring {
+	width: 13%;
+	height: 205px;
+	border-style: solid;
+	border-color: goldenrod;
+	border-width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 20px 20px 5px 20px;
+	position: relative;
+	left: 260px;
+	top: -150px;
+	z-index: 2;
+}
+.third-ring {
+	width: 13%;
+	height: 205px;
+	border-style: solid;
+	border-color: black;
+	border-width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 20px 20px 5px 20px;
+	position: relative;
+	left: 420px;
+	top: -590px;
+	z-index: 1;
+}
+.fourth-ring {
+	width: 13%;
+	height: 205px;
+	border-style: solid;
+	border-color: green;
+	border-width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 20px 20px 5px 20px;
+	position: relative;
+	left: 580px;
+	top: -740px;
+	z-index: 0.2;
+}
+.fifth-ring {
+	width: 13%;
+	height: 205px;
+	border-style: solid;
+	border-color: red;
+	border-width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 10px;
+	padding: 20px 20px 5px 20px;
+	position: relative;
+	left: 740px;
+	top: -1190px;
+}
+.centered {
+	background-color: white;
+
+	width: 35%;
+	height: 25px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	padding: 80px 60px;
+	opacity: 0;
+}
